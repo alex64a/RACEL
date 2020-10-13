@@ -1,0 +1,51 @@
+MetaInfo {
+
+
+Type {
+        name: "Tank"
+        icon: "item-icon16.png"
+
+        ItemLibraryEntry {
+            name: "Thermometer"
+            category: "  Components"
+            libraryIcon: "item-icon.png"
+            QmlSource {source: "ThermometerSource.qml" }
+        }
+    }
+
+
+
+Type {
+        name: "HorizontalSlider"
+        icon: "item-icon16.png"
+
+        ItemLibraryEntry {
+            name: "Slider - Horizontal"
+            category: "  Components"
+            libraryIcon: "item-icon.png"
+            requiredImport: "components"
+            Property { name: "width"; type: "int"; value: 184; }
+            Property { name: "height"; type: "int"; value: 48; }
+            Property { name: "allowDrag"; type: "bool"; value: "true"; }
+            Property { name: "showHint"; type: "bool"; value: "true"; }
+            Property { name: "imageTrack"; type: "QUrl"; value: "images/slider_htrack.png"; }
+            Property { name: "imageHandle"; type: "QUrl"; value: "images/slider_handle.png"; }
+            Property { name: "imageOverlay"; type: "QUrl"; value: ""; }
+            Property { name: "minimum"; type: "int"; value: 0; }
+            Property { name: "maximum"; type: "int"; value: 10; }
+            Property { name: "value"; type: "int"; value: 0; }
+            Property { name: "xMin"; type: "int"; value: 0; }
+            Property { name: "handleY"; type: "int"; value: 2; }
+            Property { name: "hintHeight"; type: "int"; value: 40; }
+            Property { name: "hintWidth"; type: "int"; value: 40; }
+            Property { name: "hintBackgroundColor"; type: "QString"; value: "#ffffff"; }
+            Property { name: "hintRadius"; type: "int"; value: 9; }
+            Property { name: "hintBorderWidth"; type: "int"; value: 2; }
+            Property { name: "hintBorderColor"; type: "QString"; value: "#000000"; }
+            Property { name: "hintFontPixelSize"; type: "int"; value: 16; }
+            Property { name: "hintFontFamily"; type: "QString"; value: "DejaVu Sans"; }
+            Property { name: "hintFontColor"; type: "QString"; value: "#000000"; }
+        }
+    }
+
+}

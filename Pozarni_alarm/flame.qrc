@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/slike">
+        <file>flame.png</file>
+    </qresource>
+</RCC>

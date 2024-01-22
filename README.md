@@ -21,6 +21,7 @@
 
 ### Flame sensor
 1.VCC->3.3-5V
+
 2.GND->GND
 
 ## Installation 

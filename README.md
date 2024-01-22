@@ -33,5 +33,13 @@ QT Creator : https://www.qt.io/product/development-tools
 Install required libraries, and add them to the project .pro file with command 
 `LIBS += -L/usr/local/include -lwiringPi`
 
+## Demonstration
+
+
+https://github.com/alex64a/RACEL/assets/50616697/4823e3a7-2bcd-4c7f-8e3b-de0126118cdd
+
+
+
+
 ## Credits 
 Prof. dr. Ivan Mezei

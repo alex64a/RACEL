@@ -2,13 +2,13 @@
 
 ## Requirements 
 
-1.RaspberryPi with RaspberryPi OS installed on SD Card
+1. RaspberryPi with RaspberryPi OS installed on SD Card
 
-2.DS18B20 temperature sensor
+2. DS18B20 temperature sensor
 
-3.Flame sensor (IR Reciver)
+3. Flame sensor (IR Reciver)
 
-4.Active buzzer module 
+4. Active buzzer module 
 
 ## Pin connections
 
